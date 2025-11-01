@@ -9,7 +9,8 @@ function App() {
           <h1>Header</h1>
         </div>
       </div>
-      <div className='center'>
+      <div className='parent'>
+        <Card />
         <Card />
       </div>
       <div className='footer'>

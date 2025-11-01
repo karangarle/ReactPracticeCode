@@ -23,11 +23,26 @@ function Card() {
         </div>
         <div className="card-content">
           <div className="title-content">
-            <h3>Amazon</h3>
-            <p>5 days Ago</p>
+            <h3>
+              Amazon <span>5 days Ago</span>
+            </h3>
           </div>
           <div className="des-content">
-            <div>Senior ui/ux Designer</div>
+            <h2>Senior ui/ux Designer</h2>
+          </div>
+          <div className="tag">
+            <h5>Part Time</h5>
+            <h5>Senior Level</h5>
+          </div>
+        </div>
+        <hr />
+        <div className="card-bottom">
+          <div className="Left-Side">
+            <p>150-220k</p>
+            <span>Kochi,India</span>
+          </div>
+          <div className="right-side">
+            <button type="submit">Apply Now</button>
           </div>
         </div>
       </div>
