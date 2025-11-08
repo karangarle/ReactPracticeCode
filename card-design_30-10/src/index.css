@@ -1,0 +1,146 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.parent {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+h2,
+h3,
+h5,
+p,
+span,
+label {
+  margin: 0;
+  padding: 0;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  width: 35px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.circle-image {
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  padding: 3px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.circle-image:hover {
+  border-color: #007bff;
+  transform: scale(1.05);
+}
+
+.save-tag {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  color: #333;
+  background: #f8f9fa;
+  transition: 0.3s;
+}
+
+.save-tag:hover {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.card-content h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  padding: 5px;
+}
+
+.title-content h3 {
+  padding: 5px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.title-content span {
+  color: gray;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 5px;
+  padding-top: 5px;
+}
+
+.tag {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+
+.tag h5 {
+  border: 1px solid gray;
+  padding: 2px;
+  border-radius: 50px;
+  background-color: rgb(137, 136, 136);
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+
+  .Left-Side p {
+    font-size: 10px;
+    font-weight: 800;
+  }
+
+  .Left-Side span {
+    font-size: 10px;
+    font-weight: 800;
+    color: gray;
+  }
+}
+
+.right-side button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.right-side button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
