@@ -1,8 +1,11 @@
 import React from 'react'
+import Notes from './components/Notes'
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <Notes />
+    </div>
   )
 }
 

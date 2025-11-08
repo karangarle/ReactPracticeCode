@@ -5,18 +5,15 @@ body {
   color: white;
 }
 
-h1{
-  background-color: gray;
-  width: fit-content;
-  padding: 10px 70px;
-  font-size: 100px;
-  margin: 20px;
-  border-radius: 20px;
-}
 
- input,button{
+ input,button,textarea{
   border: 2px solid gray;
   border-radius: 20px;
-  padding: 10px;
+  padding: 5px;
   margin: 10px 20px;
+}
+
+
+::-webkit-scrollbar{
+  display: none;
 }
