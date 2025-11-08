@@ -1,7 +1,32 @@
 @import "tailwindcss";
 
-*{
+body{
   background-color: black;
   color: white;
   padding: 5px;
+}
+
+.box {
+  background-color: red;
+  border: 1px solid black;
+  height: 400px;
+  width: 400px;
+}
+
+.page1 {
+  width: 1000px;
+  height: 1000px;
+  background-color: red;
+}
+
+.page2 {
+  width: 1000px;
+  height: 1000px;
+  background-color: rgb(134, 42, 42);
+}
+
+.page3 {
+  width: 1000px;
+  height: 1000px;
+  background-color: rgb(241, 125, 125);
 }
