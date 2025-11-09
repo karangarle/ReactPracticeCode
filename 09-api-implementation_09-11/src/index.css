@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+body {
+  background-color: black;
+  color: white;
+}
+
+
+ input,button,textarea{
+  border: 2px solid gray;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px 20px;
+}
+
+
+::-webkit-scrollbar{
+  display: none;
+}
