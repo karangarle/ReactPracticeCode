@@ -8,21 +8,11 @@ body {
 
  input,button,textarea{
   border: 2px solid gray;
-  border-radius: 20px;
   padding: 5px;
   margin: 10px 20px;
+  height: 40px;
 }
 
-h1{
-  width: fit-content;
-  height: fit-content;
-  color: black;
-  background-color: gray;
-  font-size: 200px;
-  padding: 10px 20px;
-  display: block;
-  font-weight: 100;
-}
 
 ::-webkit-scrollbar{
   display: none;
